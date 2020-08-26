@@ -1,0 +1,6 @@
+set easymotion
+set surround
+imap jk <Esc>
+:let mapleader = ","
+map <Leader> <Plug>(easymotion-prefix)
+nmap s <Plug>(easymotion-overwin-f2)
