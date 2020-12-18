@@ -1,8 +1,9 @@
-set easymotion  # ,s<characters>
-set surround  # cs<from><to> | ys<motion><surround_char>
-set exchange  # cx<motion> cx<motion> | cxx - whole line
-set ReplaceWithRegister  # dd - to delete line first, grr - to replace another line with cut line
 imap jk <Esc>
-:let mapleader = ","
-map <Leader> <Plug>(easymotion-prefix)
-nmap s <Plug>(easymotion-overwin-f2)
+imap Jk <Esc>
+imap jK <Esc>
+imap JK <Esc>
+vmap er <Esc>
+let mapleader = ","
+set easymotion
+nmap <Leader> <Plug>(easymotion-prefix)
+set surround
